@@ -1,10 +1,65 @@
-h1 {
-    background-color: blue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color:blueviolet;
     color: #FFF;
 }
 
-li {
-    align-items: center;
-    margin: 0 16px;
-
+header li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
 }
+
+header li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container ,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-list img {
+    height: 30px;
+}
+
+.brand-list li {
+    text-decoration: none;
+    display: inline;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24ps 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
